@@ -6,7 +6,6 @@ import React, { useState } from 'react';
 import Footer from './components/Footer/Footer';
 import LoginPopup from './components/LoginPopUp/LoginPopup';
 import PlaceOrder from './pages/placeorder/placeOrder';
-import Verify from './pages/verify/Verify';
 
 function App() {
 
@@ -20,7 +19,6 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/order' element={<PlaceOrder />} />
-        <Route path='/verify' element={<Verify />} />
       </Routes>
     </div>
     <Footer />
