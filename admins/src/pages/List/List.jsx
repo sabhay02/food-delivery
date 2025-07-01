@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import axios from 'axios';
 import './List.css'
 
-const List = ({url}) => {
+const List = () => {
 
 
   const url = "http://localhost:4000";
